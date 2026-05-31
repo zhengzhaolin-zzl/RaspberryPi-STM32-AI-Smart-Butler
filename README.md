@@ -31,3 +31,22 @@
 ### 产品优势
 ![项目图片2](./image2.png)
 
+#
+## 使用说明
+
+1. 下载或克隆本项目：
+
+```bash
+git clone https://github.com/zhengzhaolin-zzl/RaspberryPi-STM32-AI-Smart-Butler.git
+```
+2. 打开树莓派程序，到阿里云百炼平台创建一个Qwe235b的api，再到微软Azure创建一个语音服务的示例获取api，最后，补充到AI.env里
+
+3. 打开 `源代码` 文件夹，分别烧录 STM32 程序和部署树莓派程序。
+
+4. 打开 `HMI串口屏工程`，将界面工程下载到 HMI 串口屏。
+
+5. 按照 `基于STM32的硬件原理图` 完成硬件连接。
+
+6. 上电运行系统，测试各模块功能。
+
+---
