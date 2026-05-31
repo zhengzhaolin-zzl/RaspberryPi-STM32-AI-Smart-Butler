@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "music_player": {
+      "isActive":true,
+      "command": "python",
+      "args": ["music.py"
+      ]
+    },
+    "amap-maps": {
+      "isActive":true,
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.cn/sse/0338b5b594f248"
+    },
+    "time": {
+	"isActive": true,
+        "command": "python",
+        "args": ["-m","mcp_server_time", "--local-timezone=Asia/Shanghai"]
+    },
+    "todoist-mcp-server": {
+      "isActive": true,
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.cn/sse/1102af0ec59b44"
+    },
+   "howtocook-mcp": {
+      "isActive": true,
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.cn/sse/50d008e2210a4a"
+    },
+    "mcp-hotnews-server": {
+      "isActive": true,
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.cn/sse/19482f0950184a"
+    }
+  }
+}

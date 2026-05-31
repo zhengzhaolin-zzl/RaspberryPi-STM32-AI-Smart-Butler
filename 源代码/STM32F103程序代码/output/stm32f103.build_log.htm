@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zheng zhaolin, 51learn, LIC=WHYH9-4FTFC-KPXZY-ILHMZ-MT35P-1X3ZU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil5 C51\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\港澳计算机设计创新赛\STM32F103\stm32f103.uvprojx
+Project File Date:  04/28/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil5 C51\ARM\ARMCC\Bin'
+Rebuild target 'STM32F103'
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling core_cm3.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_gpio.c...
+compiling sys.c...
+compiling HMI_Rx.c...
+hardware\src\HMI_Rx.c(64): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(yinshi[number], "第%d个人%s岁性别%s,身高%scm体重%skg,过敏源%s",number+1,people->age,
+hardware\src\HMI_Rx.c(103): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(finalbuffer,"%s=\"%d\"\xff\xff\xff",pingmu,value);
+hardware\src\HMI_Rx.c(110): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(finalbuffer,"%s=\"%s\"\xff\xff\xff",pingmu,str);
+hardware\src\HMI_Rx.c: 3 warnings, 0 errors
+compiling stm32f10x_dac.c...
+compiling delay.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_adc.c...
+compiling usart.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_rcc.c...
+compiling Timer.c...
+compiling dht11.c...
+compiling Get_Huangjing.c...
+.\hardware\inc\Get_Huangjing.h(4): warning:  #1295-D: Deprecated declaration Huanjing_Get - give arg types
+  void Huanjing_Get();
+.\hardware\inc\Get_Huangjing.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+hardware\src\Get_Huangjing.c(27): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	else if(Mq135_value<55&&Mq135_value>=0){Mq135=2;}
+hardware\src\Get_Huangjing.c: 3 warnings, 0 errors
+compiling AD.c...
+compiling read30102.c...
+.\hardware\inc\read30102.h(7): warning:  #1295-D: Deprecated declaration Read_30102 - give arg types
+  void Read_30102();
+hardware\src\read30102.c: 1 warning, 0 errors
+compiling main.c...
+.\NET\device\inc\esp8266.h(11): warning:  #1295-D: Deprecated declaration Usart_ClearPM - give arg types
+  void Usart_ClearPM();
+.\hardware\inc\Get_Huangjing.h(4): warning:  #1295-D: Deprecated declaration Huanjing_Get - give arg types
+  void Huanjing_Get();
+.\hardware\inc\Get_Huangjing.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\hardware\inc\read30102.h(7): warning:  #1295-D: Deprecated declaration Read_30102 - give arg types
+  void Read_30102();
+user\main.c(47): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf(question2, "aa一家人有%d个人，",people_number);
+user\main.c(62): warning:  #223-D: function "Aliyun_Service" declared implicitly
+  		Aliyun_Service(question3,"yundong_xili1.t1.txt");
+user\main.c(69): warning:  #223-D: function "Aliyun_Service" declared implicitly
+  		Aliyun_Service(question3,"yundong_xili2.t1.txt");
+user\main.c(76): warning:  #223-D: function "Aliyun_Service" declared implicitly
+  		Aliyun_Service(question3,"yundong_xili3.t1.txt");
+user\main.c(84): warning:  #223-D: function "Aliyun_Service" declared implicitly
+  		Aliyun_Service(question4,"ai_wenda.t3.txt");
+user\main.c: 9 warnings, 0 errors
+compiling max30102.c...
+compiling esp8266.c...
+.\NET\device\inc\esp8266.h(11): warning:  #1295-D: Deprecated declaration Usart_ClearPM - give arg types
+  void Usart_ClearPM();
+NET\device\src\esp8266.c(91): warning:  #111-D: statement is unreachable
+  	return 1;
+NET\device\src\esp8266.c(126): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+  	printContentToScreen(esp8266_buf,yemian);	
+NET\device\src\esp8266.c(146): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+  	printContentToScreen(esp8266_buf,yemian);	
+NET\device\src\esp8266.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=27518 RO-data=1206 RW-data=388 ZI-data=22748  
+FromELF: creating hex file...
+".\output\stm32f103.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F103
+  D:\Keil5 C51\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\Keil5 C51\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

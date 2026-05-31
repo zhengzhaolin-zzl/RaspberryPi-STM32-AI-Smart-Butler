@@ -1,0 +1,34 @@
+.\output\hmi_rx.o: hardware\src\HMI_Rx.c
+.\output\hmi_rx.o: D:\Keil5 C51\ARM\ARMCC\Bin\..\include\string.h
+.\output\hmi_rx.o: .\hardware\inc\HMI_Rx.h
+.\output\hmi_rx.o: .\core\stm32f10x.h
+.\output\hmi_rx.o: .\core\core_cm3.h
+.\output\hmi_rx.o: D:\Keil5 C51\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\hmi_rx.o: .\core\system_stm32f10x.h
+.\output\hmi_rx.o: .\core\stm32f10x_conf.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_adc.h
+.\output\hmi_rx.o: .\core\stm32f10x.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_bkp.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_can.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_cec.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_crc.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_dac.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_dbgmcu.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_dma.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_exti.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_flash.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_fsmc.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_gpio.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_i2c.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_iwdg.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_pwr.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_rcc.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_rtc.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_sdio.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_spi.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_tim.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_usart.h
+.\output\hmi_rx.o: .\fwlib\inc\stm32f10x_wwdg.h
+.\output\hmi_rx.o: .\fwlib\inc\misc.h
+.\output\hmi_rx.o: .\hardware\inc\delay.h
+.\output\hmi_rx.o: .\hardware\inc\usart.h
