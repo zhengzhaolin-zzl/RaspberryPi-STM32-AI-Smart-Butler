@@ -1,5 +1,5 @@
 # RaspberryPi-STM32-AI-Smart-Butler
 双核异构多模AI家庭健康中枢耗时数月打造的智能居家系统！基于树莓派4B+STM32F103ZET6双核异构架构，融合通义千问大模型、多传感器与MCP智能体，实现健康监护、环境监测、智能服药提醒、语音/文本多模态交互全功能！适配适老化+残障友好设计，聋哑人群可通过HMI屏文字对话大模型，老年人语音就能搞定健康管理/服药提醒，还能实时监测空气质量、火灾风险并智能告警，7日心率血氧可视化、个性化饮食运动计划一键生成～ 从硬件电路设计、软件编程到系统集成全自主开发，真正实现“监测-分析-决策-服务”智能闭环，把AI健康管家搬进家！
-*视频简介：【第八届传智杯AIoT嵌入式系统创新大赛国赛】 https://www.bilibili.com/video/BV1CxLE6wE3n/?share_source=copy_web&vd_source=56f7f337a3a364fdada81aee6fe342e3
+* 视频简介：【第八届传智杯AIoT嵌入式系统创新大赛国赛】 https://www.bilibili.com/video/BV1CxLE6wE3n/?share_source=copy_web&vd_source=56f7f337a3a364fdada81aee6fe342e3
 
 
